@@ -79,6 +79,8 @@ pkg install curl -y
 sleep 3
 
 echo "curl Installed"
+
+sleep 3
    
 pkg install ruby -y
 
@@ -106,7 +108,7 @@ sleep 3
       
 pkg install python2 -y
 
-sleep 1a33
+sleep 3
 
 echo "python2 Installed"
 
@@ -209,6 +211,10 @@ echo "Beautiful Soup 4 Installed"
 sleep 3
 
 pip install requests
+
+sleep 3
+
+apt full-upgrade -y
 
 sleep 5
 
