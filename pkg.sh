@@ -42,7 +42,7 @@ echo "pkg updated"
 
 sleep 3
 
-pkg upgrade 
+pkg upgrade -y
 
 sleep 3
 
